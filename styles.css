@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.me {
+    height: 100vh;
+    background: url('https://media.istockphoto.com/id/1416048929/photo/woman-working-on-laptop-online-checking-emails-and-planning-on-the-internet-while-sitting-in.jpg?s=612x612&w=0&k=20&c=mt-Bsap56B_7Lgx1fcLqFVXTeDbIOILVjTdOqrDS54s=') no-repeat center center/cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    padding:40px;
+}
+
+.me h1 {
+    font-size: 4rem;
+}
+
+.me p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.about {
+    padding: 100px 20px;
+    background: url('https://i.pinimg.com/736x/44/e4/c2/44e4c2af3ca9e2a2606d5d18a47f2923.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: #333;
+    height:100vh;
+}
+
+.about-content {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px 50px;
+    margin: 0 auto;
+    max-width: 800px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+ #about .line{
+    margin: 30px 0;
+    border: none;
+    height: 1px;
+    background-color: #333;
+    width: 50%;
+}
+
+.about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+span{
+    position:relative;
+    left: -0px;
+}
+
+.about-content hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0px 120px;
+    margin:0px 60px;
+}
+
+.skills li {
+    width: 45%;
+    margin-bottom: 10px;
+}
+
+.about-description {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 20px;
+}
+
+.portfolio {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.portfolio-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.portfolio h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.portfolio-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    text-align: left;
+}
+.pimg{
+    width:40%;
+}
+.palign{
+    display:flex;
+}
+
+
+.portfolio-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+}
